@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Jonas Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,h1 {font-family: "Raleway", Arial, sans-serif}
+  h1 {letter-spacing: 6px}
+  .w3-row-padding img {margin-bottom: 12px}
+
+  .container {
+    position: relative;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  p {width:60%;margin: auto;}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:25px">
+  <h1 class="w3-xlarge">Portfolio</h1>
+  <h1>Jonas Bossy</h1>
+  <p>
+    Je suis Jonas Bossy. J’ai 19ans. Je suis passionné par le dessin, la photographie, et crée des films. Je dessine quasiment tous les jours, de tout et n’importe quoi en prenant régulièrement des photos dans mon temps personnelle. Sinon quand j’ai du temp j’aime aller dans la nature pour me balader. Je fait aussi du sport, en aient beaucoup fait dans ma jeunesse et principalement du parkour. Maintenant je fait du rugby. En aient beaucoup voyager dans mon enfance j’ai eu l’occasion de rencontrer beaucoup de personnes différentes et plusieurs lieux different d’ou mon envie d’explorer et rencontrer de nouvelles personnes!</p>
+
+</header>
+
+<!-- Photo Grid -->
+<div class="w3-row-padding" style="margin-bottom:128px">
+  <div class="w3-half">
+
+    <div class="container">
+    <img src="img/MesPhotos/Kendra.jpg" style="width:100%">
+      <div class="overlay">
+        <div class="text"><a href="Images/galerie1.html">Photographie</a></div>
+      </div>
+      </div>
+
+    <div class="container">
+        <img src="img/Drawings/guy.jpg" style="width:100%">
+      <div class="overlay">
+        <div class="text"><a href="Dessin/dessin.html">Dessin</a></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="img/Affiches/Celebration.jpg" style="width:100%">
+      <div class="overlay">
+        <div class="text"><a href="Graphisme/Graphisme.html">Graphisme</div></a>
+      </div>
+    </div>
+
+    </div>
+
+  <div class="w3-half">
+
+    <div class="container">
+    <img src="img/OtisTaylor.jpg" style="width:100%">
+      <div class="overlay">
+        <div class="text"><a href="Video/video.html">Video</div></a>
+      </div>
+    </div>
+
+    <div class="container">
+    <img src="img/Drawings/AfficheJo/AfficheJo.jpg" style="width:100%">
+      <div class="overlay">
+        <div class="text"><a href="Dessin/dessin.html">Dessin</div></a>
+      </div>
+    </div>
+
+
+
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+
+
+</body>
+</html>
